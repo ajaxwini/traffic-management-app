@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sample.directions.com.app"
+    android:installLocation="preferExternal">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="LOGIN"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="sample.directions.com.app.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:label="MAKE IN INDIA"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".nav"
+            android:label="HOME"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="sample.directions.com.app.nav" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".route"
+            android:label="ROUTE YOURSELF"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="sample.directions.com.app.route" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".map"
+            android:label="MAP"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="sample.directions.com.app.map" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".wadi"
+            android:label="STATUS"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="sample.directions.com.app.wadi" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".yerwada"
+            android:label="STATUS"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="sample.directions.com.app.yerwada" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RT"
+            android:label="STATUS"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="sample.directions.com.app.RT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".fav"
+            android:label="FAVOURITE ROUTES"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="sample.directions.com.app.fav" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".complain"
+            android:label="COMPLAIN BOX"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="sample.directions.com.app.complain" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".w2"
+            android:label="ALTERNATE ROUTE"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="sample.directions.com.app.w2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".y2"
+            android:label="ALTERNATE ROUTE"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="sample.directions.com.app.y2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".rt2"
+            android:label="ALTERNATE ROUTE"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="sample.directions.com.app.rt2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

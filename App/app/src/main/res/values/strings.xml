@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="action_settings">Settings</string>
+    <string name="tfa">Traffic Forcasting App</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_nav">nav</string>
+    <string name="logout">Logout</string>
+    <string name="help">Help</string>
+    <string-array name="different_routes">
+        <item>    </item>
+        <item>Via Yerwada</item>
+        <item>Via Swargate</item>
+        <item>Via RT Chowk</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_route">route</string>
+    <string name="title_activity_map">map</string>
+    <string name="title_activity_wadi">wadi</string>
+    <string name="title_activity_yerwada">yerwada</string>
+    <string name="title_activity_rt">RT</string>
+    <string name="title_activity_fav">fav</string>
+    <string name="title_activity_complain">complain</string>
+    <string name="title_activity_feedback">feedback</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_w2">w2</string>
+    <string name="title_activity_y2">y2</string>
+    <string name="title_activity_rt2">rt2</string>
+</resources>
